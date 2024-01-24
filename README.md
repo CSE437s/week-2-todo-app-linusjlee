@@ -48,3 +48,9 @@ This assignment challenges you to design and build a simple to-do application us
 - **Any Templating Framework:** Anything you have familiarity with and have built before.
 - **Django:** Python based fullstack framework (HTML templating, not responsive) use with SQLite
 - **Laravel:** PHP based fullstack framework (HTML templating, not responsive) use with SQLite
+
+
+
+### FUNCTIONALITY
+
+In setting up my project, the regular django-admin didn't work for setting up the project on my computer, so I used "python3 -m django startproject todo". I'm not sure if that will impact how to run it on your local computer but just letting you know. To run the project you go into the outer todo project folder, then run python3 manage.py runserver. This should host the server on http://127.0.0.1:8000/. From here, if you log onto that website in your browser, the todo list should work completely. You can check off tasks, add new ones, edit tasks, and delete tasks. 
